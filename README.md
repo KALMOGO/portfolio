@@ -1,4 +1,4 @@
-# Portfolio — Lucien Kalmogo
+# Portfolio
 
 Vue 3 (Vite) frontend + Node/Express backend (contact form), bilingual FR/EN.
 
