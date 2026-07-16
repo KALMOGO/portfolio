@@ -1,0 +1,149 @@
+{
+  "personal": {
+    "name": "Lucien Kalmogo",
+    "title": "AI Engineer & Data Scientist",
+    "subtitle": "NLP · Computer Vision · Generative AI · Healthcare AI",
+    "email": "lucienkalmogo21@gmail.com",
+    "linkedin": "https://linkedin.com/in/kalmogolucien",
+    "github": "https://github.com/KALMOGO",
+    "kaggle": "https://www.kaggle.com/lucienkalmogo",
+    "medium": "https://medium.com/@lucienkalmogo21",
+    "location": "France",
+    "available": true,
+    "bio_short": {
+      "en": "AI Engineer & Data Scientist building end-to-end AI systems — NLP pipelines, computer vision, generative AI and knowledge representation, applied to complex real-world problems.",
+      "fr": "AI Engineer & Data Scientist, je conçois des systèmes d'IA de bout en bout — pipelines NLP, vision par ordinateur, IA générative et représentation des connaissances, appliqués à des problèmes concrets."
+    },
+    "bio_long": {
+      "en": "I design and build practical AI systems, with experience spanning the full ML pipeline — from data collection and preprocessing to model deployment and evaluation. My background covers NLP (information extraction, LLMs, clinical text), computer vision (detection, recognition, generative models), knowledge representation (ontologies, semantic web), and web development (Django, REST APIs). I enjoy working on projects where technology solves concrete, real-world problems.",
+      "fr": "Je conçois et développe des systèmes d'IA concrets, avec une expérience couvrant tout le pipeline ML — de la collecte et du prétraitement des données jusqu'au déploiement et à l'évaluation des modèles. Mon parcours couvre le NLP (extraction d'information, LLMs, texte clinique), la vision par ordinateur (détection, reconnaissance, modèles génératifs), la représentation des connaissances (ontologies, web sémantique) et le développement web (Django, API REST). J'aime les projets où la technologie résout des problèmes réels et mesurables."
+    },
+    "open_to": ["Data Scientist", "ML Engineer", "AI Engineer", "Backend Developer"],
+    "also_open_to": {
+      "en": "PhD opportunities in applied AI for health",
+      "fr": "Opportunités de doctorat en IA appliquée à la santé"
+    }
+  },
+
+  "education": [
+    {
+      "degree": {
+        "en": "M2 Artificial Intelligence for Public Health (AI4PH)",
+        "fr": "M2 Intelligence Artificielle appliquée à la Santé Publique (AI4PH)"
+      },
+      "institution": "Aix-Marseille Université",
+      "location": "Marseille, France",
+      "year": "2025–2026",
+      "result": {
+        "en": "Admitted",
+        "fr": "Admis"
+      },
+      "flag": "🇫🇷"
+    },
+    {
+      "degree": {
+        "en": "M2 Data Science",
+        "fr": "M2 Sciences des Données"
+      },
+      "institution": "Université Nazi BONI",
+      "location": "Bobo-Dioulasso, Burkina Faso",
+      "year": "2022–2024",
+      "result": {
+        "en": "High Honors",
+        "fr": "Mention Très Bien"
+      },
+      "flag": "🇧🇫"
+    }
+  ],
+
+  "certifications": [
+    {
+      "name": "Computer Vision Lab",
+      "issuer": "WorldQuant University",
+      "year": "2026",
+      "badge_url": "https://www.credly.com/badges/a1a6a88a-609a-4b7f-9250-24ac373ab8a0",
+      "skills": ["Deep Learning", "GANs", "Stable Diffusion", "LoRA", "MTCNN", "FaceNet", "YOLOv8", "HuggingFace", "PyTorch", "OpenCV"]
+    },
+    {
+      "name": "Applied Data Science Lab",
+      "issuer": "WorldQuant University",
+      "year": "2025",
+      "badge_url": "https://www.credly.com/badges/fa16e940-28e9-4b70-9725-0183a2aaaf8d",
+      "skills": ["Machine Learning", "SQL", "MongoDB", "Data Visualization", "Statistics", "Python", "API Design"]
+    }
+  ],
+
+  "skills": {
+    "languages": ["Python", "R", "SQL", "JavaScript", "TypeScript"],
+    "ml_ai": ["PyTorch", "TensorFlow", "Scikit-learn", "XGBoost", "CatBoost", "SHAP", "LIME"],
+    "nlp": ["HuggingFace Transformers", "spaCy", "scispaCy", "NLTK", "SentenceTransformers", "BERT", "BioMistral", "CLIP"],
+    "computer_vision": ["OpenCV", "MTCNN", "FaceNet", "YOLOv8", "Stable Diffusion", "GANs", "LoRA", "VAE"],
+    "knowledge_representation": ["OWL", "SPARQL", "owlready2", "SNOMED CT", "ICD-10", "ATC"],
+    "llms": ["Qwen3", "BioMistral", "LM Studio", "Ollama", "OpenAI GPT", "OpenRouter"],
+    "web": ["Django", "Django REST Framework", "Flask", "Ionic/Angular"],
+    "databases": ["PostgreSQL", "MySQL", "SQLite", "MongoDB"],
+    "tools": ["Git", "Docker", "Linux", "AWS", "Jupyter", "MLflow"],
+    "epidemiology": ["SIR Model", "NetworkX", "Temporal Networks"]
+  },
+
+  "experience": [
+    {
+      "title": "Research Intern — NLP & Ontology Alignment",
+      "company": "IRIT/CNRS — MELODI Team",
+      "location": "Toulouse, France",
+      "period": "2025–2026",
+      "type": { "en": "Research Internship", "fr": "Stage de recherche" },
+      "description": "Developed CBAG framework for consensus-based ontology alignment in the One Health domain. Implemented and benchmarked 4 matching systems + LLM validation (Qwen3-8B). Submitted paper to WISE 2026.",
+      "highlights": [
+        "Designed consensus voting + LLM validation pipeline",
+        "Evaluated on 6 OAEI benchmark pairs — best F1 on 5/6",
+        "Applied to 25 One Health biomedical ontologies",
+        "Submitted paper to WISE 2026 (under review)"
+      ]
+    },
+    {
+      "title": "Full-Stack AI Developer — Freelance",
+      "company": "PowerTech",
+      "location": "Remote",
+      "period": "2024",
+      "type": { "en": "Freelance", "fr": "Freelance" },
+      "description": "Designed and developed an AI-powered computer recommendation platform using RAG (Retrieval-Augmented Generation) with Django and OpenAI GPT.",
+      "highlights": [
+        "Built complete Django full-stack application",
+        "Implemented RAG pipeline (database retrieval + GPT validation)",
+        "User authentication + product catalog + AI recommendations",
+        "Delivered production-ready application to client"
+      ]
+    },
+    {
+      "title": "AI Trainer — Community",
+      "company": "Zindi Africa (via Ambassador)",
+      "location": "Burkina Faso",
+      "period": "2024",
+      "type": { "en": "Volunteer", "fr": "Bénévolat" },
+      "description": "Delivered a Data Science with Python training session for the Zindi Africa community, invited by a Zindi Ambassador. Covered Python fundamentals through neural networks from scratch.",
+      "highlights": [
+        "Implemented Perceptron and Neural Network from scratch (NumPy)",
+        "Demonstrated XOR problem and backpropagation",
+        "Training material publicly available on GitHub"
+      ]
+    }
+  ],
+
+  "research_interests": [
+    "Clinical NLP & Information Extraction",
+    "Ontology Alignment & Knowledge Representation",
+    "Explainable AI (XAI) for Healthcare",
+    "Generative AI for Medical Data",
+    "One Health & Epidemiology",
+    "Low-resource AI for African Languages"
+  ],
+
+  "languages_spoken": [
+    {"language": "French", "level": "Native"},
+    {"language": "English", "level": "Professional (B2+)"},
+    {"language": "Dioula", "level": "Native"}
+  ],
+
+  "testimonials": []
+}

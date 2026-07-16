@@ -1,0 +1,148 @@
+{
+  "nav": {
+    "about": "À propos",
+    "skills": "Compétences",
+    "projects": "Projets",
+    "services": "Services",
+    "formation": "Formation",
+    "publications": "Publications",
+    "experience": "Expérience",
+    "contact": "Contact"
+  },
+  "hero": {
+    "tag": "En recherche active de nouvelles opportunités",
+    "greeting": "Bonjour, je suis",
+    "actions": {
+      "projects": "Voir mes projets",
+      "cv": "Télécharger mon CV",
+      "contact": "Me contacter"
+    }
+  },
+  "about": {
+    "eyebrow": "À propos",
+    "title": "Qui suis-je",
+    "stats": {
+      "projects": "Projets réalisés",
+      "certifications": "Certifications",
+      "publications": "Publications"
+    }
+  },
+  "skills": {
+    "eyebrow": "Compétences",
+    "title": "Ma boîte à outils",
+    "subtitle": "Les technologies et méthodes que j'utilise au quotidien",
+    "categories": {
+      "languages": "Langages",
+      "ml_ai": "Machine Learning",
+      "nlp": "NLP / LLM",
+      "computer_vision": "Vision par ordinateur",
+      "knowledge_representation": "Représentation des connaissances",
+      "llms": "LLMs",
+      "web": "Développement Web",
+      "databases": "Bases de données",
+      "tools": "Outils",
+      "epidemiology": "Épidémiologie"
+    }
+  },
+  "projects": {
+    "eyebrow": "Portfolio",
+    "title": "Projets récents",
+    "subtitle": "Une sélection de projets data science et IA",
+    "filters": {
+      "all": "Tous",
+      "nlp": "NLP",
+      "computer_vision": "Vision",
+      "generative_ai": "IA Générative",
+      "research": "Recherche",
+      "web_ai": "Web & IA",
+      "epidemiology": "Épidémiologie",
+      "teaching": "Enseignement",
+      "machine_learning": "Machine Learning"
+    },
+    "featured": "En vedette",
+    "code": "Voir le code",
+    "viewProject": "Voir le projet"
+  },
+  "services": {
+    "eyebrow": "Freelance",
+    "title": "Ce que je peux faire pour vous",
+    "subtitle": "Missions ponctuelles ou récurrentes, adaptées à votre besoin",
+    "cta": "Demander un devis",
+    "items": [
+      { "icon": "📊", "title": "Analyse de données", "desc": "Exploration, reporting, aide à la décision" },
+      { "icon": "🤖", "title": "Modélisation ML / IA", "desc": "Prédiction, classification, NLP, LLM" },
+      { "icon": "📈", "title": "Dashboards", "desc": "Tableaux de bord Power BI / Tableau" },
+      { "icon": "⚙️", "title": "Automatisation", "desc": "Pipelines de données, scripts sur mesure" }
+    ]
+  },
+  "testimonials": {
+    "eyebrow": "Avis clients",
+    "title": "Témoignages",
+    "subtitle": "Ce que mes clients et collaborateurs disent de mon travail"
+  },
+  "collab": {
+    "title": "Envie de collaborer ?",
+    "subtitle": "Pas encore de témoignages publiés — mais je suis ouvert aux collaborations : poste, doctorat, missions freelance ou projets open source.",
+    "cta": "Discutons-en"
+  },
+  "admin": {
+    "login": {
+      "title": "Connexion admin",
+      "password": "Mot de passe",
+      "submit": "Se connecter",
+      "error": "Mot de passe incorrect."
+    },
+    "nav": {
+      "publications": "Publications",
+      "projects": "Projets",
+      "logout": "Déconnexion",
+      "backToSite": "Retour au site"
+    },
+    "form": {
+      "add": "Ajouter",
+      "edit": "Modifier",
+      "save": "Enregistrer",
+      "cancel": "Annuler",
+      "delete": "Supprimer",
+      "confirmDelete": "Supprimer cet élément ?",
+      "tagsHint": "séparés par des virgules"
+    }
+  },
+  "formation": {
+    "eyebrow": "Parcours académique",
+    "title": "Formation",
+    "subtitle": "Mon parcours et mes certifications",
+    "certTitle": "Certifications",
+    "seeBadge": "Voir le badge"
+  },
+  "publications": {
+    "eyebrow": "Recherche",
+    "title": "Publications scientifiques",
+    "subtitle": "Travaux publiés ou en cours de publication",
+    "readArticle": "Lire l'article",
+    "underReview": "En cours de soumission"
+  },
+  "experience": {
+    "eyebrow": "Expérience",
+    "title": "Expérience professionnelle"
+  },
+  "contact": {
+    "title": "Discutons de votre prochain projet",
+    "subtitle": "Disponible pour un poste, un doctorat ou des missions freelance en data science et IA.",
+    "form": {
+      "name": "Nom",
+      "email": "Email",
+      "message": "Message",
+      "send": "Envoyer le message",
+      "sending": "Envoi en cours…",
+      "success": "Message envoyé avec succès, merci !",
+      "error": "Une erreur est survenue. Réessayez ou écrivez-moi directement par email."
+    }
+  },
+  "footer": {
+    "rights": "Tous droits réservés."
+  },
+  "common": {
+    "availableTag": "Disponible"
+  }
+}

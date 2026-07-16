@@ -1,0 +1,148 @@
+{
+  "nav": {
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "services": "Services",
+    "formation": "Education",
+    "publications": "Publications",
+    "experience": "Experience",
+    "contact": "Contact"
+  },
+  "hero": {
+    "tag": "Actively looking for new opportunities",
+    "greeting": "Hi, I'm",
+    "actions": {
+      "projects": "View my projects",
+      "cv": "Download my CV",
+      "contact": "Get in touch"
+    }
+  },
+  "about": {
+    "eyebrow": "About",
+    "title": "Who I am",
+    "stats": {
+      "projects": "Projects delivered",
+      "certifications": "Certifications",
+      "publications": "Publications"
+    }
+  },
+  "skills": {
+    "eyebrow": "Skills",
+    "title": "My toolbox",
+    "subtitle": "Technologies and methods I use on a daily basis",
+    "categories": {
+      "languages": "Languages",
+      "ml_ai": "Machine Learning",
+      "nlp": "NLP / LLM",
+      "computer_vision": "Computer Vision",
+      "knowledge_representation": "Knowledge Representation",
+      "llms": "LLMs",
+      "web": "Web Development",
+      "databases": "Databases",
+      "tools": "Tools",
+      "epidemiology": "Epidemiology"
+    }
+  },
+  "projects": {
+    "eyebrow": "Portfolio",
+    "title": "Recent projects",
+    "subtitle": "A selection of data science and AI projects",
+    "filters": {
+      "all": "All",
+      "nlp": "NLP",
+      "computer_vision": "Vision",
+      "generative_ai": "Generative AI",
+      "research": "Research",
+      "web_ai": "Web & AI",
+      "epidemiology": "Epidemiology",
+      "teaching": "Teaching",
+      "machine_learning": "Machine Learning"
+    },
+    "featured": "Featured",
+    "code": "View code",
+    "viewProject": "View project"
+  },
+  "services": {
+    "eyebrow": "Freelance",
+    "title": "What I can do for you",
+    "subtitle": "One-off or recurring engagements, tailored to your needs",
+    "cta": "Request a quote",
+    "items": [
+      { "icon": "📊", "title": "Data Analysis", "desc": "Exploration, reporting, decision support" },
+      { "icon": "🤖", "title": "ML / AI Modeling", "desc": "Prediction, classification, NLP, LLM" },
+      { "icon": "📈", "title": "Dashboards", "desc": "Power BI / Tableau dashboards" },
+      { "icon": "⚙️", "title": "Automation", "desc": "Data pipelines, custom scripts" }
+    ]
+  },
+  "testimonials": {
+    "eyebrow": "Client Reviews",
+    "title": "Testimonials",
+    "subtitle": "What clients and collaborators say about my work"
+  },
+  "collab": {
+    "title": "Interested in collaborating?",
+    "subtitle": "No testimonials published yet — but I'm open to collaboration: full-time roles, PhD opportunities, freelance work, or open-source projects.",
+    "cta": "Let's talk"
+  },
+  "admin": {
+    "login": {
+      "title": "Admin login",
+      "password": "Password",
+      "submit": "Log in",
+      "error": "Incorrect password."
+    },
+    "nav": {
+      "publications": "Publications",
+      "projects": "Projects",
+      "logout": "Log out",
+      "backToSite": "Back to site"
+    },
+    "form": {
+      "add": "Add",
+      "edit": "Edit",
+      "save": "Save",
+      "cancel": "Cancel",
+      "delete": "Delete",
+      "confirmDelete": "Delete this item?",
+      "tagsHint": "comma-separated"
+    }
+  },
+  "formation": {
+    "eyebrow": "Academic Background",
+    "title": "Education",
+    "subtitle": "My learning path and certifications",
+    "certTitle": "Certifications",
+    "seeBadge": "See badge"
+  },
+  "publications": {
+    "eyebrow": "Research",
+    "title": "Scientific Publications",
+    "subtitle": "Published work and work in progress",
+    "readArticle": "Read the paper",
+    "underReview": "Under review"
+  },
+  "experience": {
+    "eyebrow": "Experience",
+    "title": "Professional Experience"
+  },
+  "contact": {
+    "title": "Let's talk about your next project",
+    "subtitle": "Available for full-time roles, PhD opportunities, or freelance data science and AI work.",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "send": "Send message",
+      "sending": "Sending…",
+      "success": "Message sent successfully, thank you!",
+      "error": "Something went wrong. Please try again or email me directly."
+    }
+  },
+  "footer": {
+    "rights": "All rights reserved."
+  },
+  "common": {
+    "availableTag": "Available"
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "publications": [
+    {
+      "title": "An Ontology-Based System for Detecting and Repairing Road Potholes Through Community Involvement",
+      "authors": "Kindo A.A., Kalmogo L., Malo S.",
+      "venue": "IEEE Conference Publication",
+      "year": "2024",
+      "doi": "https://ieeexplore.ieee.org/document/10812117",
+      "tags": ["Ontology", "Computer Vision", "Community AI"]
+    },
+    {
+      "title": "PLAVIDA, an Annotation Tool for Audio and Video in African Languages",
+      "authors": "Traoré G.I., Somé B.M.J., Ouédraogo O., Kalmogo L.",
+      "venue": "AFRICOMM 2023 — Springer LNICST vol. 588",
+      "year": "2025",
+      "doi": "https://doi.org/10.1007/978-3-031-81573-7_11",
+      "tags": ["NLP", "African Languages", "Annotation Tool"]
+    },
+    {
+      "title": "CBAG: Consensus-Based Alignment Generation for One Health Ontologies",
+      "authors": "Kalmogo L. et al.",
+      "venue": "WISE 2026 (under review)",
+      "year": "2026",
+      "doi": null,
+      "tags": ["Ontology Alignment", "One Health", "LLM", "Knowledge Representation"]
+    }
+  ],
+
+  "projects": [
+    {
+      "name": "Clinical NLP Pipeline — CHA-AIHP",
+      "description": "End-to-end NLP pipeline extracting structured information from 14,000+ French ICU clinical notes. Achieves 97% accuracy on ICD-10 coding using BioMistral (zero-shot LLM). Includes anonymization (CamemBERT-NER + Piranha), XML segmentation, and a Streamlit demo app. CNIL approved.",
+      "tags": ["NLP", "Clinical AI", "LLM", "Django", "Streamlit"],
+      "tech": ["Django", "BioMistral", "CamemBERT", "Streamlit", "Python"],
+      "github": "https://github.com/KALMOGO/clinical-nlp-pipeline",
+      "metrics": "97% ICD-10 accuracy · 14k+ clinical notes · CNIL approved",
+      "category": "nlp",
+      "featured": true
+    },
+    {
+      "name": "CBAG — One Health Ontology Alignment",
+      "description": "Consensus-Based Alignment Generation framework combining 4 matching systems (AML, LogMap, BERTMapLt, Matcha-DL) with LLM validation (Qwen3-8B) and logical repair. Evaluated on 6 OAEI benchmark pairs — best F1 on 5 of 6 pairs. Applied to 25 One Health ontologies.",
+      "tags": ["Ontology", "One Health", "LLM", "Knowledge Representation"],
+      "tech": ["Python", "Qwen3-8B", "OWL", "SPARQL", "owlready2"],
+      "github": "https://github.com/KALMOGO/cbag",
+      "metrics": "Best F1 on 5/6 OAEI pairs · 25 ontologies · WISE 2026 (under review)",
+      "category": "research",
+      "featured": true
+    },
+    {
+      "name": "Face Recognition Pipeline",
+      "description": "End-to-end face recognition system using MTCNN for detection and landmark alignment, FaceNet (InceptionResnet) for embedding generation, and metric learning for identity verification. Includes a Flask REST API and Streamlit demo.",
+      "tags": ["Computer Vision", "Deep Learning", "Flask"],
+      "tech": ["PyTorch", "MTCNN", "FaceNet", "Flask", "OpenCV"],
+      "github": "https://github.com/KALMOGO/face-recognition-pipeline",
+      "metrics": "MTCNN cascade · FaceNet embeddings · REST API",
+      "category": "computer_vision",
+      "featured": true
+    },
+    {
+      "name": "Medical GAN & Stable Diffusion",
+      "description": "Generative AI for synthetic medical image generation. Implements vanilla GAN and DCGAN for X-ray/MRI generation, then uses Stable Diffusion with LoRA fine-tuning for text-to-medical-image synthesis. Includes MedIGAN integration.",
+      "tags": ["Generative AI", "GAN", "Stable Diffusion", "Medical Imaging"],
+      "tech": ["PyTorch", "HuggingFace Diffusers", "LoRA", "CLIP", "VAE"],
+      "github": "https://github.com/KALMOGO/medical-gan",
+      "metrics": "GAN + Stable Diffusion + LoRA fine-tuning",
+      "category": "generative_ai",
+      "featured": true
+    },
+    {
+      "name": "RAG Computer Advisor — PowerTech",
+      "description": "Freelance project: AI-powered computer recommendation system using RAG (Retrieval-Augmented Generation). Users describe their needs and budget — the system retrieves candidates from the product database and uses OpenAI GPT to recommend the best match with explanation.",
+      "tags": ["RAG", "Django", "OpenAI", "Full-Stack"],
+      "tech": ["Django", "Django REST Framework", "OpenAI GPT", "PostgreSQL"],
+      "github": "https://github.com/KALMOGO/computerWebsite",
+      "metrics": "Freelance project · Full-stack deployment · RAG pipeline",
+      "category": "web_ai",
+      "featured": true
+    },
+    {
+      "name": "SIR Epidemic Network",
+      "description": "Temporal SIR epidemic model implemented from scratch on a real high school contact network (188k contacts). Includes network analysis, parameter calibration via grid search (β=0.8, μ=0.002 → 75% outbreak), and class-level risk identification.",
+      "tags": ["Epidemiology", "Network Science", "Public Health"],
+      "tech": ["NetworkX", "NumPy", "Matplotlib", "Seaborn"],
+      "github": "https://github.com/KALMOGO/master-ai4ph-projects",
+      "metrics": "188k real contacts · 75% outbreak calibration · 2BIO3 highest risk class",
+      "category": "epidemiology",
+      "featured": false
+    },
+    {
+      "name": "PLAVIDA — African Language Annotation",
+      "description": "Mobile platform for annotating audio and video in African local languages. Includes an accessible interface for illiterate users (icon-based UI). Backend deployed on PythonAnywhere. Published at AFRICOMM 2023 (Springer).",
+      "tags": ["NLP", "Mobile", "African Languages", "Django"],
+      "tech": ["Django", "Django REST Framework", "Ionic/Angular", "PythonAnywhere"],
+      "github": "https://github.com/KALMOGO/plavida",
+      "metrics": "Springer publication · Deployed backend · Illiterate-friendly UI",
+      "category": "nlp",
+      "featured": false
+    },
+    {
+      "name": "ML From Scratch — Zindi Africa Training",
+      "description": "Teaching material delivered for the Zindi Africa data science community. Implements Perceptron and multi-layer Neural Network with backpropagation from scratch using NumPy only. Demonstrates XOR problem and gradient descent.",
+      "tags": ["Teaching", "Deep Learning", "From Scratch"],
+      "tech": ["NumPy", "Python", "Jupyter"],
+      "github": "https://github.com/KALMOGO/python-ds-teaching",
+      "metrics": "Zindi Africa community · Neural Network from scratch",
+      "category": "teaching",
+      "featured": false
+    },
+    {
+      "name": "Master AI4PH Projects",
+      "description": "Collection of practical notebooks from M2 AI for Public Health (AMU): clinical NLP, diabetes/cancer ML classification, breast cancer clustering, feature selection with SHAP explainability, SIR epidemic model, PubMed pipeline.",
+      "tags": ["Machine Learning", "NLP", "Healthcare", "Epidemiology"],
+      "tech": ["Scikit-learn", "XGBoost", "SHAP", "NLTK", "NetworkX"],
+      "github": "https://github.com/KALMOGO/master-ai4ph-projects",
+      "metrics": "8+ notebooks · SHAP XAI · Custom ML classes",
+      "category": "machine_learning",
+      "featured": false
+    }
+  ]
+}
